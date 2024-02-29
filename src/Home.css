@@ -1,0 +1,51 @@
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background-image: url("assesst/library.png"); 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white; 
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #59D5E0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image {
+  width: 200px; 
+  height: auto; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px; 
+}

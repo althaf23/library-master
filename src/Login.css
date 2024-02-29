@@ -1,0 +1,59 @@
+/* Login.css */
+
+:root {
+  --primary-color: red; /* Primary color */
+  --primary-hover-color: red; /* Hover color for primary elements */
+  --background-color: #59D5E0; /* Background color */
+}
+
+.login-container {
+  max-width: 400px;
+  height: auto; /* Adjusted to fit the content */
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--background-color);
+}
+
+.login-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  padding: 12px; /* Changed padding */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  padding: 12px 20px; /* Adjusted padding */
+  font-size: 18px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: var(--primary-hover-color);
+}
